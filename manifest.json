@@ -1,0 +1,16 @@
+{
+    "name" : "Hocus Focus",
+    "manifest_version" : 3,
+    "version" : "1.0",
+    "description" : "Helps you with focusing on a task",
+    "permissions" : [
+        "tabs"
+    ],
+    "chrome_url_overrides" :{
+        "newtab" : "main.html"
+    },
+    "host_permissions" : [
+        "https://api.quotable.io/random",
+        "https://api.quotable.io/random"
+    ]
+}
